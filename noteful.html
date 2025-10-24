@@ -60,14 +60,17 @@
     </div>
   </div>
 
-  <img src="assets/lyft-full.png" class="top-80" data-reveal="up">
+  <img src="assets/lyft-full.png" class="top-80 border" data-reveal="up">
 
   <section class="project-band top-80" id="project-contents">
     <!-- Left sticky TOC -->
     <nav class="toc" aria-label="Table of contents" data-reveal="up">
-      <a href="#overview">Overview</a>
-      <a href="#project">Project</a>
-      <a href="#learnings">Learnings</a>
+      <a href="#overview">At a Glance</a>
+      <a href="#research">Research</a>
+      <a href="#concept">Conceptualize</a>
+      <a href="#prototype">Prototype</a>
+      <a href="#final">Final Design</a>
+      <a href="#reflection">Reflection</a>
     </nav>
 
     <!-- Centered main content -->
@@ -92,79 +95,178 @@
           <img src="assets/concierge.png" class="border">
         </div>
 
-        <div class="eyebrow top-120">Solution Preview</div>
-        <div class="center-card top-20">
+        <div class="center-card top-120">
+          <div class="eyebrow">Solution Preview</div>
+
           <h2>Noteful's entire experience interface was redesigned with gamification to sustain long-term engagement.</h2>
 
-          <div class="project-card">
-            <video autoplay loop muted playsinline>
-            <source src="assets/noteful-cover.mov" type="video/mp4">
-            <!-- optional fallback -->
-            Your browser does not support the video tag.
-          </video>
+          <img src="assets/noteful-cover.png" class="border">
+
+          <p class="half-text">The project started with a solution, but we began with the problem. By reframing the direction around what users actually need, we set the foundation for our design decisions. Below, I’ll walk through our design process and how that led us here.</p>
+        </div>
+      </section>
+
+      <section id="research" class="top-120" data-reveal="up">
+        <div class="eyebrow">Research Kickoff</div>
+        <div class="two-grid top-20">
+          <h2>So... why was the app needed in the first place?</h2>
+
+          <p>Since this is also completed as a capstone project, time had to be dedicated to research. Before starting the redesign, my team and I performed 3 forms of research to gather more insights, including:</p>
+        </div>
+
+        <div class="three-grid top-120">
+          <div class="grid-card">
+            <img src="assets/noteful-cover.png">
+
+            <h3 class="top">Desk Research</h3>
+            <p>of what is relevant to extrinsic/intrinsic motivation and e-learning.</p>
+          </div>
+
+          <div class="grid-card">
+            <img src="assets/noteful-cover.png">
+
+            <h3 class="top">Competitive Analysis</h3>
+            <p>of popular e-learning apps, some specific to music, currently on the market.</p>
+          </div>
+
+          <div class="grid-card">
+            <img src="assets/noteful-cover.png">
+            
+            <h3 class="top">User Interviews</h3>
+            <p>with long-term music theory learners to hear firsthand experiences.</p>
+          </div>
+        </div>
+
+        <div class="eyebrow top-120">Research Insights</div>
+        <img src="assets/noteful-cover.png" class="border top-20">
+
+        <div class="two-grid top-20">
+          <h2>Music theory learning comes off as monotonous and unengaging.</h2>
+
+          <div>
+            <p>Students learn music theory in conjunction to something broader, like playing the piano, but unlike that, music theory comes off as monotonous. Meanwhile, traditional worksheets and music theory apps aren't suitable for young learners, and what they want is to learn alongside friends and have fun while they're at it.</p>
+
+            <div class="callout-card top-20">
+              <div>🤔</div>
+              <div>These insights got us thinking: How can Noteful's new dashboard fill in the gaps where current learning methods are falling short?</div>
+            </div>
           </div>
         </div>
       </section>
 
-      <section id="project" class="top-120" data-reveal="up">
-        <div class="eyebrow">Internship Timeline</div>
-        <img src="assets/timeline.png" class="border top-20">
+      <section id="concept" class="top-120" data-reveal="up">
+        <div class="eyebrow">Conceptualization</div>
 
-        <div class="callout-card top-20">
-          <div>⏰</div>
-          <div>The timeline above provides a high-level overview of what I did in my internship. Feel free to reach out if you’d like to know more about my work at Lyft!</div>
+        <h2 class="top">How can Noteful come fill in the gaps?</h2>
+
+        <div class="two-grid top-20">
+          <div class="grid-card">
+            <img src="assets/noteful-cover.png">
+            
+            <h3 class="top">Brainstorming Jam</h3>
+
+            <p>Our team first brainstormed together on how Noteful could improve student engagement through a dashboard, grounding our ideas on the concepts of intrinsic and extrinsic motivation through gamification.</p>
+          </div>
+
+          <div class="grid-card">
+            <img src="assets/noteful-cover.png">
+
+            <h3 class="top">Speed-dating with Storyboards</h3>
+
+            <p>We then tested the ideas through storyboards. For example, this storyboard was one that was particularly well-received, informing us to create some sort of competition within the Noteful community.</p>
+          </div>
         </div>
 
-        <div class="eyebrow top-120">Projected Impacts</div>
+        <div class="eyebrow top-120">Initial Sketches</div>
+        <div class="two-grid top-20">
+          <div>
+            <h2>Testing a feature's presentation and its perceived effectiveness.</h2>
+            
+            <p>I next suggested we sketched feature ideas, highlighting how presentation affects effectiveness. We ran quick think-aloud interviews for feedback on layout, navigation, and visuals.</p>
+
+            <div class="callout-card top-20">
+              <div>💭</div>
+              <div>However, certain feedback had me reconsider the project goal we received, which was to redesign their student dashboard.</div>
+            </div>
+          </div>
+
+          <img src="assets/noteful-cover.png">
+        </div>
+
+        <div class="eyebrow top-120">Considerations</div>
+        <h2 class="top">Would a dashboard redesign be sufficient for an effective learning experience on Noteful?</h2>
+        <div class="three-grid top-20">
+          <div class="grid-card">
+            <div class="emoji">📱</div>
+
+            <h3>Market Competition</h3>
+            <p>A dashboard refresh would make us blend in with competition. To differentiate Noteful, we should rethink the XP at a deeper level.</p>
+          </div>
+
+          <div class="grid-card">
+            <div class="emoji">😵‍💫</div>
+
+            <h3 class="top">Overloaded Dashboard</h3>
+            <p>Dashboards can be overwhelming. For learners, this kind of clutter creates friction and makes it hard to focus on what matters.</p>
+          </div>
+
+          <div class="grid-card">
+            <div class="emoji">📈</div>
+            
+            <h3 class="top">Holistic Experience</h3>
+            <p>wE-learning isn’t just about accessing content or flashy features; it’s about sustaining engagement on the long-term.</p>
+          </div>
+        </div>
+
+        <div class="center-card top-120">
+          <div class="eyebrow">New Approach</div>
+
+          <h2>How might we design an engaging learning experience for young music theory learners to create long-term motivation?</h2>
+
+          <p class="half-text">After presenting our rationale with Noteful, we aligned everyone on the team and shifted our focus from dashboard design to better meet user needs, updating our problem statement accordingly.</p>
+        </div>
+      </section>
+
+      <section id="prototype" class="top-120" data-reveal="up">
+        <div class="eyebrow">Prototype</div>
 
         <div class="two-grid top-20">
           <div>
-            <h2>What did I accomplish in 12 weeks?</h2>
-            <p>My work is currently in the process of being launched. While final metrics are confidential, the redesign is projected to:</p>
+            <h2>Designing a dashboard home for Noteful's learning experience.</h2>
+
+            <p>During design, we naturally kicked off with revamping the home page, the central hub for Noteful's learning experience. The original one presents lessons through notes, setting them up so it reflects the curriculum that they’ve established.</p>
+
+            <div class="callout-card top-20">
+              <div>👀</div>
+              <div>While this worked, we heard from some users they weren't bigs fans of the horizontal scrolling or flat layout, so we explored other options.</div>
+            </div>
           </div>
 
-          <div>
-            <div class="callout-card">Decrease the amount of time it takes to create a ride in Concierge web.</div>
-
-            <div class="callout-card top-20">Make the ride booking experience less error prone.</div>
-
-            <div class="callout-card top-20">Improve the usability and customer satisfaction of Concierge web.</div>
-          </div>
-        </div>
-      </section>
-
-      <section id="learnings" class="top-120" data-reveal="up">
-        <div class="eyebrow">A Thank You :)</div>
-        <img src="assets/photos.png" class="border top-20">
-
-        <div class="callout-card top-20">
-          <div>🤟</div>
-          <div>Thank you to Lyft for the wonderful ride! I had no idea what to expect for my first time in the west coast, but the experiences I had to the people I met have truly made the summer one of a kind.</div>
+          <img src="assets/concierge.png" class="border">
         </div>
 
-        <div class="eyebrow top-120">Learnings</div>
-        <div class="three-grid top-20">
+        <div class="eyebrow top-120">Home Page Exploration</div>
+
+        <div class="two-grid top-20">
           <div class="grid-card">
-            <div class="emoji">🏃‍♀️</div>
+            <img src="assets/noteful-cover.png">
+            
+            <h3 class="top">Path View</h3>
 
-            <h3>Move forward with clarity, not wait for certainty.</h3>
-            <p>Design often happens in ambiguity, and sometimes, it's about just making a thoughtful decision with a clear understanding and design rationale. Time is limited and precious!</p>
+            <p>The path view was a familiar and linear view that was commonly found within level-based games, which felt the most straightforward. However, this approach couldn’t capture the tiers layer of Noteful’s curriculum.</p>
           </div>
 
           <div class="grid-card">
-            <div class="emoji">💼</div>
+            <img src="assets/noteful-cover.png">
+            
+            <h3 class="top">Island View</h3>
 
-            <h3>Understand the business decision behind design.</h3>
-            <p>Also a business decision, design is shaped by priorities and trade-offs. As I grow as a designer, I'm excited to work on this area more so I can better balance craft with impact.</p>
-          </div>
-
-          <div class="grid-card">
-            <div class="emoji">🧠</div>
-
-            <h3>Dig for the problem, not work with a solution.</h3>
-            <p>Sometimes solutions are presented upfront in projects, but I learned the value of stepping back, to uncover the real user problem and ensure the solution truly fits.</p>
+            <p>The island view provided a more fun approach that was unique, and it accurately represented the 4 layers of Noteful's curriculum. Despite its unfamiliarity to first-time users, this wasn't an issue during testing.</p>
           </div>
         </div>
+
+        <div class="eyebrow top-120">New Home Design</div>
+        <h2 class="top">A fun and dynamic home page that serves as a central hub for learning features.</h2>
       </section>
     </article>
   </section>

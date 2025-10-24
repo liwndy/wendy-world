@@ -453,6 +453,10 @@ a:hover {
   font-size: 28px;
 }
 
+.content h2.top {
+  margin-top: 20px;
+}
+
 .emoji {
   margin-bottom: 20px;
   font-size: 24px;
@@ -462,6 +466,10 @@ a:hover {
   margin: 0px auto 20px 0px;
   font-weight: 500;
   font-size: 22px;
+}
+
+.content h3.top {
+  margin-top: 20px;
 }
 
 .callout-card {
@@ -490,6 +498,10 @@ a:hover {
   gap: 20px;
   align-items: center;
   text-align: center;
+}
+
+.center-card p {
+  max-width: 700px;
 }
 
 .project-band{
