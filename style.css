@@ -484,6 +484,14 @@ a:hover {
   border: 1px solid var(--border);
 }
 
+.center-card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  text-align: center;
+}
+
 .project-band{
   display: flex;
   gap: 20px;
